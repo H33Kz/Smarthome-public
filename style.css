@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    background: url(https://static.vecteezy.com/system/resources/previews/003/497/189/original/internet-cyber-security-connection-concept-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #843da5;
+}
+section form{
+    position: absolute;
+    z-index: 1;
+    color: #843da5;
+    border-top: 5px solid #843da5;
+    border-left: 5px solid #843da5;
+    border-right: 5px solid #843da5;
+    border-bottom: 5px solid #843da5;
+}
+.form-control{
+    border: 0;
+    border-bottom: 4px solid #f1f1f1ef;
+    color:#40005eab !important;
+}
+
+.form-control::placeholder{
+    color: #40005eab
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0;
+    border-bottom: 4px solid #843da5;
+}
+.btn{
+    width: 100%;
+    background-color: #843da5;
+    border: 0;
+    font-size: 1.2em;
+}
+.btn:focus{
+    box-shadow: 0 0 0 0.2rem #843da5;
+}
+input[type="checkbox"]{
+    border-color:#843da5;
+    outline: none;
+}
+input[type="checkbox"]:checked{
+    background-color:#843da5;
+    box-shadow: 0px 0px 0px 2px rgba(132,61,165,1);
+    border-color:#843da5;
+    outline: none;
+}
+input[type="checkbox"]:hover{
+    background-color: #efccff;
+    box-shadow: 0px 0px 0px 2px rgba(132,61,165,1);
+    border-color:#843da5;
+    outline: none;
+}
+input[type="checkbox"]:after{
+    box-shadow: 0px 0px 0px 2px rgba(132,61,165,1);
+    border-color:#843da5;
+    outline: none;
+}
+input[type="checkbox"]:checked::after{
+    background-color:#843da5;
+    box-shadow: 0px 0px 0px 2px rgba(132,61,165,1);
+    border-color:#843da5;
+    outline: none;
+}
